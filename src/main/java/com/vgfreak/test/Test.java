@@ -13,6 +13,7 @@ public class Test implements ModInitializer {
 
         ModItems.registerItems();
         ModBlocks.registerBlocks();
+        ModBlocks.generateOres();
 
     }
 
